@@ -5,6 +5,8 @@ const nextConfig: NextConfig = {
     images: {
         unoptimized: true,
     },
+    trailingSlash: true,
+    assetPrefix: process.env.NODE_ENV === 'production' ? '' : undefined,
     /* config options here */
 };
 

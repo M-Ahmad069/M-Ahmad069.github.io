@@ -9,7 +9,7 @@
                     "start":  "next start",
                     "lint":  "next lint",
                     "svgr:icons":  "svgr --title-prop --no-dimensions --typescript -d components/icons -- components/icons/svgs",
-                    "deploy":  "npm run build \u0026\u0026 node scripts/create-nojekyll.js \u0026\u0026 gh-pages -d out"
+                    "deploy":  "npm run build \u0026\u0026 gh-pages -d out --nojekyll"
                 },
     "dependencies":  {
                          "@gsap/react":  "^2.1.1",
@@ -40,3 +40,4 @@
                             "typescript":  "^5"
                         }
 }
+

@@ -1,0 +1,120 @@
+
+# **Muhammad Ahmad**
+
+📍 Vehari, Pakistan
+📞 0310-6113103
+📧 [ahmadawais32320@gmail.com](mailto:ahmadawais32320@gmail.com)
+
+🔗 LinkedIn: [https://www.linkedin.com/in/ahmad-awais-9121641b2/](https://www.linkedin.com/in/ahmad-awais-9121641b2/)
+🔗 GitHub: [https://github.com/M-Ahmad069](https://github.com/M-Ahmad069)
+
+---
+
+## **Professional Summary**
+
+Motivated and detail-oriented **Software Engineering student** with strong hands-on experience in **Full Stack Web Development (MERN Stack & Next.js)**. Proven ability to deliver real-world projects for local clients, including a complete **Salon Management System**. Passionate about building scalable, user-friendly applications and seeking a growth-oriented role as a **Software Developer / Full Stack Developer**.
+
+---
+
+## **Education**
+
+**Bachelor of Science in Software Engineering**
+COMSATS University Islamabad, Vehari Campus
+📅 5th Semester (3rd Year) – Currently Enrolled
+
+**Intermediate in Computer Science (ICS)**
+Punjab College
+
+**Matriculation (Science)**
+Bilal School
+
+---
+
+## **Technical Skills**
+
+**Programming & Frameworks**
+
+* JavaScript (ES6+)
+* Next.js
+* React.js
+* Node.js
+* Express.js
+
+**Databases**
+
+* MongoDB
+* MySQL (Basic)
+
+**Web Development**
+
+* MERN Stack
+* Full Stack Web Development
+* RESTful APIs
+* Authentication & Authorization
+
+**Tools & Technologies**
+
+* Git & GitHub
+* VS Code
+* Postman
+* Firebase (Basic)
+* Deployment (Vercel / Netlify – Basic)
+
+---
+
+## **Professional Experience**
+
+### **Part-Time Software Developer**
+
+**Nerdware Tech**
+📅 1 Year
+
+* Developed and maintained web applications using **MERN Stack**.
+* Worked on **client-based projects**, converting requirements into functional solutions.
+* Improved application performance and UI responsiveness.
+* Collaborated with team members to deliver projects on time.
+* Gained real-world experience in **software development lifecycle**.
+
+---
+
+## **Projects**
+
+### **Salon Management System (Full Stack Project)**
+
+A complete, large-scale solution designed for salon businesses.
+
+**Key Features:**
+
+* Client & staff management
+* Appointment booking system
+* Services & pricing management
+* Admin dashboard with analytics
+* Authentication & role-based access
+* Responsive UI for desktop & mobile
+
+**Technologies Used:**
+Next.js, React.js, Node.js, Express.js, MongoDB
+
+---
+
+### **Client Websites (Local Projects)**
+
+* Designed and developed multiple business websites for local clients.
+* Focused on **responsive design**, **SEO-friendly layouts**, and **performance optimization**.
+* Customized UI based on client branding and requirements.
+
+---
+
+### **Personal Web Applications**
+
+* Developed practice and portfolio projects without public URLs.
+* Implemented CRUD operations, authentication systems, and dashboards.
+* Enhanced skills in **full stack architecture** and **problem solving**.
+
+---
+
+## **Career Objective**
+
+To build a strong career as a **Software Developer / Full Stack Developer**, where I can apply my technical skills, continue learning modern technologies, and contribute to impactful software solutions in a professional environment.
+
+

@@ -1,39 +1,41 @@
-# 🚀 My Portfolio Website
+# Portfolio Website
 
-![image](https://github.com/user-attachments/assets/ade45c4b-b2cb-46cb-b8a6-31cad3bd0c5a)
+A modern, responsive portfolio website showcasing my projects and skills as a Full Stack Developer.
 
-[Checkout the initial design here](https://www.figma.com/design/56hODoGFDzZfZduBPfQeBg/New-Portfolio?node-id=18-1550&t=73vRMGTW0gspTSND-1)
+## 🚀 Live Site
 
-## 🚨 Forking this repo (please read!)
+**Visit my portfolio:** [https://m-ahmad069.github.io](https://m-ahmad069.github.io)
 
-Many people have contacted me asking me if they can use this code for their own website, and the answer to that question is usually **yes, with attribution**.
+## 👨‍💻 About
 
-I value keeping my site open source, but as you all know, _**plagiarism is bad**_. It's always disheartening whenever I find that someone has copied my site without giving me credit. I spent a non-trivial amount of effort building and designing this iteration of my website, and I am proud of it! All I ask of you all is to not claim this effort as your own.
+I'm **Muhammad Ahmad**, a Software Engineering student and Full Stack Developer specializing in MERN Stack and Next.js. With over 1 year of professional experience, I've developed real-world applications including a complete Salon Management System and multiple client websites.
 
-Please also note that I did not build this site with the intention of it being a starter theme, so if you have questions about implementation, please refer to the [Next.js docs](https://nextjs.org/docs).
+## 🛠️ Tech Stack
 
-If you like my work, give it a star⭐.
+- **Frontend:** Next.js 15, React 19, TypeScript
+- **Styling:** Tailwind CSS
+- **Animations:** GSAP
+- **Backend:** Node.js, Express.js
+- **Database:** MongoDB
+- **Deployment:** GitHub Pages
 
-### TL;DR
+## 💼 Key Projects
 
-Yes, you can fork this repo. Please give me proper credit by linking back to [tajmirul.site](https://tajmirul.site/). Thanks!
+- **Salon Management System** - Full-stack solution with client/staff management, appointment booking, and admin dashboard
+- **Client Websites** - Multiple business websites with responsive design and SEO optimization
+- **Personal Web Applications** - Various projects showcasing CRUD operations, authentication, and dashboards
 
-## 🛠 Installation & Set Up
+## 📧 Contact
 
-First, run the development server:
+- **Email:** ahmadawais32320@gmail.com
+- **LinkedIn:** [Muhammad Ahmad](https://www.linkedin.com/in/ahmad-awais-9121641b2/)
+- **GitHub:** [M-Ahmad069](https://github.com/M-Ahmad069)
+
+## 📦 Installation
 
 ```bash
-pnpm install
-pnpm dev
+npm install
+npm run dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
-
-## 🤝 Contributing
-If you'd like to contribute or suggest improvements, feel free to open an issue or submit a pull request. All contributions are welcome!
-
-## Credit
-_This readme is inspired from [Brittany Chiang's github](https://github.com/bchiang7/v4)_
-
-## 📄 License
-This project is open source and available under the [MIT License](https://github.com/Tajmirul/portfolio-2.0/blob/main/LICENSE).
+Open [http://localhost:3000](http://localhost:3000) to view the site locally.

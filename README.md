@@ -6,6 +6,8 @@ A modern, responsive portfolio website showcasing my projects and skills as a Fu
 
 **Visit my portfolio:** [https://m-ahmad069.github.io](https://m-ahmad069.github.io)
 
+**Repository:** [https://github.com/M-Ahmad069/M-Ahmad069.github.io](https://github.com/M-Ahmad069/M-Ahmad069.github.io)
+
 ## 👨‍💻 About
 
 I'm **Muhammad Ahmad**, a Software Engineering student and Full Stack Developer specializing in MERN Stack and Next.js. With over 1 year of professional experience, I've developed real-world applications including a complete Salon Management System and multiple client websites.

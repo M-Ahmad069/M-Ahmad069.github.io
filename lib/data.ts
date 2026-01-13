@@ -153,88 +153,112 @@ export const PROJECTS: IProject[] = [
         ],
     },
     {
-        title: 'Client Websites',
-        slug: 'client-websites',
-        year: 2024,
+        title: 'AI-Based Fitness & Nutrition Planner',
+        slug: 'ai-based-fitness-nutrition-planner',
+        year: 2025,
         description: `
-      Designed and developed multiple business websites for local clients. <br/> <br/>
+      A modern fitness and nutrition web application designed to help users plan workouts, track daily activity, monitor nutrition, and visualize progress through an intuitive and premium dashboard interface. <br/> <br/>
       
-      Focus Areas:<br/>
+      The application focuses on user experience, data visualization, and performance, combining fitness planning with smart insights to create a realistic, production-ready product. <br/> <br/>
+      
+      Key Pages Implemented:<br/>
       <ul>
-        <li>📱 Responsive design for all devices</li>
-        <li>🔍 SEO-friendly layouts and structure</li>
-        <li>⚡ Performance optimization</li>
-        <li>🎨 Customized UI based on client branding</li>
-        <li>💼 Client requirement analysis and implementation</li>
+        <li>📊 Dashboard - Daily activity summary, calories, steps, and workouts overview with weekly progress charts</li>
+        <li>🏋️ Workouts Page - Workout categories, daily planner, suggested workouts with duration & calorie burn</li>
+        <li>🍎 Nutrition Page - Meal tracking, calorie and macro breakdown, food history, nutrition goals</li>
+        <li>📈 Progress Page - Visual charts for weekly progress, performance comparison, goal completion tracking</li>
+      </ul>
+      <br/>
+      Core Features:<br/>
+      <ul>
+        <li>🧭 Sidebar navigation with active state handling</li>
+        <li>📊 Interactive charts & data visualization</li>
+        <li>🏋️ Workout planning & scheduling</li>
+        <li>🍎 Nutrition & calorie tracking</li>
+        <li>📅 Daily and weekly activity insights</li>
+        <li>🎨 Premium, clean, and modern UI</li>
+        <li>📱 Responsive design for all screen sizes</li>
+        <li>⚡ Optimized layout for performance and usability</li>
       </ul>
       `,
         role: `
-      Full-Stack Developer <br/>
-      Delivered multiple client projects:
+      Full-Stack / Frontend Developer <br/>
+      Designed and built a complete fitness and nutrition web application:
       <ul>
-        <li>✅ Analyzed client requirements and business needs</li>
-        <li>🎨 Designed and developed custom UI/UX solutions</li>
-        <li>📱 Ensured responsive design across all devices</li>
-        <li>🔍 Implemented SEO best practices</li>
-        <li>⚡ Optimized performance and loading times</li>
-        <li>🚀 Deployed and maintained client websites</li>
+        <li>✅ Designed the complete UI/UX flow with focus on user experience</li>
+        <li>🎨 Built reusable UI components with component-based architecture</li>
+        <li>📊 Implemented dashboard layouts and navigation with sidebar handling</li>
+        <li>📈 Integrated interactive charts and data visualization for progress tracking</li>
+        <li>🏗️ Structured scalable project architecture for maintainability</li>
+        <li>🎯 Focused on real-world usability and polish for production-ready quality</li>
+        <li>📱 Ensured responsive design across all screen sizes</li>
+        <li>⚡ Optimized layout for performance and usability</li>
       </ul>
       `,
         techStack: [
             'Next.js',
             'React.js',
-            'MongoDB',
+            'JavaScript',
             'Tailwind CSS',
         ],
-        thumbnail: '/projects/thumbnail/devLinks.jpg',
-        longThumbnail: '/projects/long/devLinks.jpg',
+        thumbnail: '/projects/thumbnail/ai-fitness-planner.jpg',
+        longThumbnail: '/projects/long/ai-fitness-planner.jpg',
         images: [
-            '/projects/images/devLinks-1.png',
-            '/projects/images/devLinks-2.png',
-            '/projects/images/devLinks-3.png',
+            '/projects/images/ai-fitness-planner-1.png',
+            '/projects/images/ai-fitness-planner-2.png',
+            '/projects/images/ai-fitness-planner-3.png',
+            '/projects/images/ai-fitness-planner-4.png',
         ],
     },
     {
-        title: 'Personal Web Applications',
-        slug: 'personal-web-applications',
-        year: 2023,
+        title: 'Smart Business Management Platform',
+        slug: 'smart-business-management-platform',
+        year: 2024,
         description: `
-      Developed practice and portfolio projects to enhance full stack development skills. <br/> <br/>
+      A full-stack business management web application designed to help service-based businesses (salons, agencies, consultancies) manage operations, customers, staff performance, and revenue analytics from a single centralized dashboard. <br/> <br/>
       
-      Implemented Features:<br/>
+      The platform focuses on real-time insights, role-based workflows, and scalable architecture, delivering a production-grade experience similar to modern SaaS tools. <br/> <br/>
+      
+      Core Features:<br/>
       <ul>
-        <li>🔄 CRUD operations</li>
-        <li>🔐 Authentication systems</li>
-        <li>📊 Dashboard interfaces</li>
-        <li>🏗️ Full stack architecture</li>
-        <li>🧩 Problem solving and optimization</li>
+        <li>📊 Advanced Dashboard Analytics - Revenue tracking, booking trends, customer acquisition sources</li>
+        <li>📅 Booking & Appointment Management - Real-time booking status, service-based scheduling</li>
+        <li>👥 Customer Management System - Customer profiles, engagement tracking, activity logs</li>
+        <li>🧑‍💼 Staff Performance Monitoring - Individual revenue contribution, performance analytics</li>
+        <li>🔐 Authentication & Authorization - JWT-based authentication, role-based access control</li>
+        <li>⚙️ Admin Controls - Service management, pricing configuration, system panels</li>
       </ul>
       `,
         role: `
       Full-Stack Developer <br/>
-      Built various personal projects:
+      Designed and implemented complete full-stack architecture:
       <ul>
-        <li>✅ Implemented complete CRUD functionality</li>
-        <li>🔐 Developed authentication and authorization systems</li>
-        <li>📊 Created interactive dashboard interfaces</li>
-        <li>🏗️ Designed and implemented full stack architecture</li>
-        <li>🧩 Solved complex problems and optimized performance</li>
-        <li>📚 Enhanced skills in MERN stack development</li>
+        <li>✅ Built reusable and scalable UI components with React.js and Next.js</li>
+        <li>🔐 Developed RESTful APIs for all core features using Node.js and Express.js</li>
+        <li>💾 Implemented secure authentication & authorization with JWT</li>
+        <li>📊 Optimized database queries and API performance with MongoDB</li>
+        <li>🎨 Created responsive layouts for all screen sizes with Tailwind CSS</li>
+        <li>📈 Integrated analytics and data visualization for real-time insights</li>
+        <li>🧩 Handled real-world edge cases and complex business logic</li>
+        <li>🚀 Designed scalable dashboard layout for complex data management</li>
       </ul>
       `,
         techStack: [
+            'Next.js',
             'React.js',
+            'TypeScript',
             'Node.js',
             'Express.js',
             'MongoDB',
-            'JavaScript',
+            'Tailwind CSS',
         ],
-        thumbnail: '/projects/thumbnail/resume-roaster.jpg',
-        longThumbnail: '/projects/long/resume-roaster.jpg',
+        thumbnail: '/projects/thumbnail/smart-business-platform.jpg',
+        longThumbnail: '/projects/long/smart-business-platform.jpg',
         images: [
-            '/projects/images/resume-roaster-1.png',
-            '/projects/images/resume-roaster-2.png',
-            '/projects/images/resume-roaster-3.png',
+            '/projects/images/smart-business-platform-1.png',
+            '/projects/images/smart-business-platform-2.png',
+            '/projects/images/smart-business-platform-3.png',
+            '/projects/images/smart-business-platform-4.png',
         ],
     },
 ];

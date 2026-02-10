@@ -29,8 +29,8 @@ I'm **Muhammad Ahmad**, a Software Engineering student and Full Stack Developer 
 
 ## 📧 Contact
 
-- **Email:** ahmadawais32320@gmail.com
-- **LinkedIn:** [Muhammad Ahmad](https://www.linkedin.com/in/ahmad-awais-9121641b2/)
+- **Email:** muhammad.ahmad3963@gmail.com
+- **LinkedIn:** [Muhammad Ahmad](https://www.linkedin.com/in/muhammad-ahmad-085230382/)
 - **GitHub:** [M-Ahmad069](https://github.com/M-Ahmad069)
 
 ## 📦 Installation

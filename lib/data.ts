@@ -1,7 +1,7 @@
 import { IProject } from '@/types';
 
 export const GENERAL_INFO = {
-    email: 'ahmadawais32320@gmail.com',
+    email: 'muhammad.ahmad3963@gmail.com',
     phone: '0310-6113103',
     location: 'Vehari, Pakistan',
 
@@ -13,7 +13,7 @@ export const GENERAL_INFO = {
 
 export const SOCIAL_LINKS = [
     { name: 'github', url: 'https://github.com/M-Ahmad069' },
-    { name: 'linkedin', url: 'https://www.linkedin.com/in/ahmad-awais-9121641b2/' },
+    { name: 'linkedin', url: 'https://www.linkedin.com/in/muhammad-ahmad-085230382/' },
 ];
 
 export const MY_STACK = {

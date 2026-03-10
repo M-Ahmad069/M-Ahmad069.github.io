@@ -46,11 +46,15 @@ const Banner = () => {
                         <br /> <span className="ml-4">DEVELOPER</span>
                     </h1>
                     <p className="banner-description slide-up-and-fade mt-6 text-lg text-muted-foreground">
-                        Hi! I&apos;m{' '}
+                        I&apos;m{' '}
                         <span className="font-medium text-foreground">
                             Muhammad Ahmad
                         </span>
-                        . A motivated Software Engineering student with strong hands-on experience in Full Stack Web Development (MERN Stack & Next.js). Passionate about building scalable, user-friendly applications.
+                        , a Full Stack Developer specializing in MERN and
+                        Next.js. I take ownership of web applications from
+                        architecture and APIs to deployment, focusing on
+                        production-ready systems that are reliable and
+                        straightforward to evolve.
                     </p>
                     <Button
                         as="link"
@@ -67,25 +71,27 @@ const Banner = () => {
                 <div className="md:absolute bottom-[10%] right-[4%] flex md:flex-col gap-4 md:gap-8 text-center md:text-right">
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            1+
+                            MERN
                         </h5>
                         <p className="text-muted-foreground">
-                            Year of Experience
+                            Full Stack Applications
                         </p>
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            3+
+                            End-to-End
                         </h5>
                         <p className="text-muted-foreground">
-                            Completed Projects
+                            Systems Built &amp; Deployed
                         </p>
                     </div>
                     <div className="slide-up-and-fade">
                         <h5 className="text-3xl sm:text-4xl font-anton text-primary mb-1.5">
-                            5th
+                            Production
                         </h5>
-                        <p className="text-muted-foreground">Semester</p>
+                        <p className="text-muted-foreground">
+                            Ready for Real Users
+                        </p>
                     </div>
                 </div>
             </div>

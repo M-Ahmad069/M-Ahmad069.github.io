@@ -61,6 +61,10 @@ const Skills = () => {
         <section id="my-stack" ref={containerRef}>
             <div className="container">
                 <SectionTitle title="My Stack" />
+                <p className="mt-4 mb-10 text-lg text-muted-foreground">
+                    Core technologies I use to build scalable, maintainable
+                    production systems.
+                </p>
 
                 <div className="space-y-20">
                     {Object.entries(MY_STACK).map(([key, value]) => (

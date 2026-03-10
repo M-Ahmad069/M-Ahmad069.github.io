@@ -22,7 +22,10 @@ const Footer = async () => {
     return (
         <footer className="text-center pb-5" id="contact">
             <div className="container">
-                <p className="text-lg">Have a project in mind?</p>
+                <p className="text-lg">
+                    Building a product, platform, or internal tool? Let&apos;s
+                    ship a reliable full-stack solution.
+                </p>
                 <a
                     href={`mailto:${GENERAL_INFO.email}`}
                     className="text-3xl sm:text-4xl font-anton inline-block mt-5 mb-10 hover:underline"
@@ -36,7 +39,8 @@ const Footer = async () => {
                         target="_blank"
                         className="leading-none text-muted-foreground hover:underline hover:text-white"
                     >
-                        Design & built by Muhammad Ahmad
+                        Built and maintained by Muhammad Ahmad, Full Stack
+                        Developer
                         <div className="flex items-center justify-center gap-5 pt-1">
                             <span className="flex items-center gap-2">
                                 <Star size={18} /> {stargazers_count}

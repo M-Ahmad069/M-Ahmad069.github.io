@@ -55,13 +55,13 @@ const AboutMe = () => {
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
                 <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    I believe in a user centered design approach, ensuring that
-                    every project I work on is tailored to meet the specific
-                    needs of its users.
+                    I build real-world web systems end to end designing the
+                    architecture, APIs, and data flow so applications stay
+                    performant, reliable, and simple to extend.
                 </h2>
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
-                    This is me.
+                    About me.
                 </p>
 
                 <div className="grid md:grid-cols-12 mt-9">
@@ -73,10 +73,21 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a Software Engineering student at COMSATS University Islamabad, currently in my 5th semester. I&apos;m a motivated and detail-oriented developer with strong hands-on experience in Full Stack Web Development using MERN Stack & Next.js.
+                                I&apos;m a Full Stack Developer who takes
+                                responsibility for backend architecture, API
+                                design, and database modeling, as well as the
+                                frontend that sits on top of it. On the backend
+                                I structure services, authentication,
+                                authorization, and business logic so they stay
+                                clear and predictable.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                My goal is to build a strong career as a Software Developer / Full Stack Developer, where I can apply my technical skills, continue learning modern technologies, and contribute to impactful software solutions in a professional environment. I have proven ability to deliver real-world projects for local clients, including a complete Salon Management System.
+                                On the frontend I build responsive, modern
+                                interfaces that integrate cleanly with the
+                                backend and keep the product straightforward to
+                                use. I focus on performance, maintainability,
+                                and shipping features that behave well in real
+                                usage, not just in isolated demos.
                             </p>
                         </div>
                     </div>

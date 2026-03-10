@@ -68,6 +68,29 @@ const Experiences = () => {
                             <p className="text-lg text-muted-foreground">
                                 {item.duration}
                             </p>
+                            <ul className="mt-5 text-lg text-muted-foreground space-y-1.5">
+                                <li>
+                                    Lead end-to-end development of full-stack
+                                    web applications using MERN and Next.js,
+                                    from initial requirements to production
+                                    deployment.
+                                </li>
+                                <li>
+                                    Design and implement scalable RESTful APIs,
+                                    authentication, and role-based access to
+                                    support real business workflows.
+                                </li>
+                                <li>
+                                    Architect backend systems and database
+                                    models with attention to data consistency,
+                                    performance, and maintainability.
+                                </li>
+                                <li>
+                                    Deploy and maintain applications, handling
+                                    environment configuration and basic
+                                    monitoring to keep them stable in real use.
+                                </li>
+                            </ul>
                         </div>
                     ))}
                 </div>

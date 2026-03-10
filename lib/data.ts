@@ -113,28 +113,19 @@ export const PROJECTS: IProject[] = [
         slug: 'salon-management-system',
         year: 2024,
         description: `
-      A complete, large-scale solution designed for salon businesses. <br/> <br/>
-      
-      Key Features:<br/>
+      A full-stack management system for salon owners to run appointments, staff, services, and client data from a single dashboard. <br/><br/>
       <ul>
-        <li>👥 Client & staff management</li>
-        <li>📅 Appointment booking system</li>
-        <li>💼 Services & pricing management</li>
-        <li>📊 Admin dashboard with analytics</li>
-        <li>🔐 Authentication & role-based access</li>
-        <li>📱 Responsive UI for desktop & mobile</li>
+        <li>Designed a role-based management system for clients, staff, and admins to reduce manual coordination.</li>
+        <li>Implemented RESTful APIs with Node.js, Express.js, and MongoDB to handle appointments, services, and reporting securely.</li>
+        <li>Built a responsive Next.js frontend with an admin dashboard for real-time insights into bookings and business performance.</li>
       </ul>
       `,
         role: `
-      Full-Stack Developer <br/>
-      Developed a complete salon management solution:
+      Full Stack Developer <br/>
       <ul>
-        <li>✅ Backend: Built RESTful APIs using Node.js and Express.js</li>
-        <li>🎨 Frontend: Created responsive UI using Next.js and React.js</li>
-        <li>💾 Database: Implemented data models and relationships in MongoDB</li>
-        <li>🔐 Security: Implemented authentication and authorization systems</li>
-        <li>📊 Analytics: Built admin dashboard with business insights</li>
-        <li>🚀 Deployment: Configured and deployed on Vercel/Netlify</li>
+        <li>Delivered the complete solution from database design and backend APIs to dashboard UI and deployment.</li>
+        <li>Structured the architecture for scalability so new modules (billing, inventory, branches) can be added without major refactors.</li>
+        <li>Collaborated closely with stakeholders to align workflows with real salon operations and internal processes.</li>
       </ul>
       `,
         techStack: [
@@ -157,42 +148,19 @@ export const PROJECTS: IProject[] = [
         slug: 'ai-based-fitness-nutrition-planner',
         year: 2025,
         description: `
-      A modern fitness and nutrition web application designed to help users plan workouts, track daily activity, monitor nutrition, and visualize progress through an intuitive and premium dashboard interface. <br/> <br/>
-      
-      The application focuses on user experience, data visualization, and performance, combining fitness planning with smart insights to create a realistic, production-ready product. <br/> <br/>
-      
-      Key Pages Implemented:<br/>
+      A web-based planner for individuals who want structured workouts, nutrition tracking, and progress insights in one place. <br/><br/>
       <ul>
-        <li>📊 Dashboard - Daily activity summary, calories, steps, and workouts overview with weekly progress charts</li>
-        <li>🏋️ Workouts Page - Workout categories, daily planner, suggested workouts with duration & calorie burn</li>
-        <li>🍎 Nutrition Page - Meal tracking, calorie and macro breakdown, food history, nutrition goals</li>
-        <li>📈 Progress Page - Visual charts for weekly progress, performance comparison, goal completion tracking</li>
-      </ul>
-      <br/>
-      Core Features:<br/>
-      <ul>
-        <li>🧭 Sidebar navigation with active state handling</li>
-        <li>📊 Interactive charts & data visualization</li>
-        <li>🏋️ Workout planning & scheduling</li>
-        <li>🍎 Nutrition & calorie tracking</li>
-        <li>📅 Daily and weekly activity insights</li>
-        <li>🎨 Premium, clean, and modern UI</li>
-        <li>📱 Responsive design for all screen sizes</li>
-        <li>⚡ Optimized layout for performance and usability</li>
+        <li>Built a modern Next.js interface with modular components for dashboards, workout planning, and meal tracking.</li>
+        <li>Integrated AI-powered recommendation flows to generate realistic workout and nutrition plans based on user goals.</li>
+        <li>Focused on performance and data visualization with charts and summaries that make progress easy to understand at a glance.</li>
       </ul>
       `,
         role: `
-      Full-Stack / Frontend Developer <br/>
-      Designed and built a complete fitness and nutrition web application:
+      Full Stack / Frontend Developer <br/>
       <ul>
-        <li>✅ Designed the complete UI/UX flow with focus on user experience</li>
-        <li>🎨 Built reusable UI components with component-based architecture</li>
-        <li>📊 Implemented dashboard layouts and navigation with sidebar handling</li>
-        <li>📈 Integrated interactive charts and data visualization for progress tracking</li>
-        <li>🏗️ Structured scalable project architecture for maintainability</li>
-        <li>🎯 Focused on real-world usability and polish for production-ready quality</li>
-        <li>📱 Ensured responsive design across all screen sizes</li>
-        <li>⚡ Optimized layout for performance and usability</li>
+        <li>Designed the overall application structure, routing, and state management for a scalable, component-based architecture.</li>
+        <li>Implemented reusable UI patterns and layout systems to keep the experience consistent across all pages.</li>
+        <li>Ensured responsive behavior and clean UX across desktop and mobile for real-world usage.</li>
       </ul>
       `,
         techStack: [
@@ -215,32 +183,19 @@ export const PROJECTS: IProject[] = [
         slug: 'smart-business-management-platform',
         year: 2024,
         description: `
-      A full-stack business management web application designed to help service-based businesses (salons, agencies, consultancies) manage operations, customers, staff performance, and revenue analytics from a single centralized dashboard. <br/> <br/>
-      
-      The platform focuses on real-time insights, role-based workflows, and scalable architecture, delivering a production-grade experience similar to modern SaaS tools. <br/> <br/>
-      
-      Core Features:<br/>
+      A management platform for service-based businesses to track bookings, customers, staff performance, and revenue in real time. <br/><br/>
       <ul>
-        <li>📊 Advanced Dashboard Analytics - Revenue tracking, booking trends, customer acquisition sources</li>
-        <li>📅 Booking & Appointment Management - Real-time booking status, service-based scheduling</li>
-        <li>👥 Customer Management System - Customer profiles, engagement tracking, activity logs</li>
-        <li>🧑‍💼 Staff Performance Monitoring - Individual revenue contribution, performance analytics</li>
-        <li>🔐 Authentication & Authorization - JWT-based authentication, role-based access control</li>
-        <li>⚙️ Admin Controls - Service management, pricing configuration, system panels</li>
+        <li>Designed a dashboard-first experience that surfaces KPIs like revenue, utilization, and booking trends in real time.</li>
+        <li>Implemented a secure MERN-based backend with JWT authentication and role-based access for teams and admins.</li>
+        <li>Structured the system into clear domains (bookings, customers, staff, services) to keep the codebase maintainable as features grow.</li>
       </ul>
       `,
         role: `
-      Full-Stack Developer <br/>
-      Designed and implemented complete full-stack architecture:
+      Full Stack Developer <br/>
       <ul>
-        <li>✅ Built reusable and scalable UI components with React.js and Next.js</li>
-        <li>🔐 Developed RESTful APIs for all core features using Node.js and Express.js</li>
-        <li>💾 Implemented secure authentication & authorization with JWT</li>
-        <li>📊 Optimized database queries and API performance with MongoDB</li>
-        <li>🎨 Created responsive layouts for all screen sizes with Tailwind CSS</li>
-        <li>📈 Integrated analytics and data visualization for real-time insights</li>
-        <li>🧩 Handled real-world edge cases and complex business logic</li>
-        <li>🚀 Designed scalable dashboard layout for complex data management</li>
+        <li>Owned the full stack: API design, database modeling, business logic, and responsive dashboard UI.</li>
+        <li>Optimized queries and API responses around real usage patterns to keep the platform fast under growing data.</li>
+        <li>Built flexible components so new analytics widgets and modules can be added without redesigning the core layout.</li>
       </ul>
       `,
         techStack: [
@@ -265,18 +220,8 @@ export const PROJECTS: IProject[] = [
 
 export const MY_EXPERIENCE = [
     {
-        title: 'Software Engineer (Frontend)',
-        company: 'Strativ AB',
-        duration: 'Dec 2024 - Present',
-    },
-    {
-        title: 'Frontend Developer',
-        company: 'Epikcoders',
-        duration: 'Oct 2023 - Nov 2024',
-    },
-    {
-        title: 'Frontend Engineer',
-        company: 'Anchorblock Technology',
-        duration: 'Oct 2022 - Sep 2023',
+        title: 'Freelance Full Stack Developer',
+        company: 'Freelance / Remote',
+        duration: 'Ongoing',
     },
 ];

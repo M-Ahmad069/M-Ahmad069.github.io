@@ -111,7 +111,7 @@ const ProjectList = () => {
                 <div className="group/projects relative" ref={containerRef}>
                     {selectedProject !== null && (
                         <div
-                            className="max-md:hidden absolute right-0 top-0 z-[1] pointer-events-none w-[200px] xl:w-[350px] aspect-[3/4] overflow-hidden opacity-0"
+                            className="max-md:hidden absolute right-0 top-0 z-[1] pointer-events-none w-[300px] xl:w-[440px] aspect-[16/10] overflow-hidden opacity-0 border border-border shadow-[0_30px_80px_-30px_hsl(var(--primary)/0.4)]"
                             ref={imageContainer}
                         >
                             {PROJECTS.map((project) => (
@@ -121,7 +121,7 @@ const ProjectList = () => {
                                     width="400"
                                     height="500"
                                     className={cn(
-                                        'absolute inset-0 transition-all duration-500 w-full h-full object-cover',
+                                        'absolute inset-0 transition-all duration-500 w-full h-full object-cover object-top',
                                         {
                                             'opacity-0':
                                                 project.slug !==

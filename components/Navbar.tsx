@@ -6,10 +6,8 @@ import { useRouter } from 'next/navigation';
 import { GENERAL_INFO, SOCIAL_LINKS } from '@/lib/data';
 
 const COLORS = [
-    'bg-yellow-500 text-black',
-    'bg-blue-500 text-white',
-    'bg-teal-500 text-black',
-    'bg-indigo-500 text-white',
+    'bg-primary text-primary-foreground',
+    'bg-secondary text-secondary-foreground',
 ];
 
 const MENU_LINKS = [
@@ -22,12 +20,20 @@ const MENU_LINKS = [
         url: '/#about-me',
     },
     {
+        name: 'What I Build',
+        url: '/#what-i-build',
+    },
+    {
         name: 'Experience',
         url: '/#my-experience',
     },
     {
         name: 'Projects',
         url: '/#selected-projects',
+    },
+    {
+        name: 'Contact',
+        url: '/#contact',
     },
 ];
 
@@ -42,6 +48,8 @@ const Navbar = () => {
                     className={cn(
                         'group size-12 absolute top-5 right-5 md:right-10 z-[2]',
                     )}
+                    aria-label={isMenuOpen ? "Close menu" : "Open menu"}
+                    aria-expanded={isMenuOpen}
                     onClick={() => setIsMenuOpen(!isMenuOpen)}
                 >
                     <span
@@ -104,7 +112,7 @@ const Navbar = () => {
                                             href={link.url}
                                             target="_blank"
                                             rel="noreferrer"
-                                            className="text-lg capitalize hover:underline"
+                                            className="text-lg hover:underline"
                                         >
                                             {link.name}
                                         </a>
@@ -129,7 +137,7 @@ const Navbar = () => {
                                             <span
                                                 className={cn(
                                                     'size-3.5 bg-white/20 rounded-full flex items-center justify-center group-hover:scale-[200%] transition-all',
-                                                    COLORS[idx],
+                                                    COLORS[idx % COLORS.length],
                                                 )}
                                             >
                                                 <MoveUpRight

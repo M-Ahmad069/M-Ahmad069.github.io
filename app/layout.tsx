@@ -1,5 +1,5 @@
 import type { Metadata } from 'next';
-import { Anton, Roboto_Flex } from 'next/font/google';
+import { Anton, Roboto_Flex, Roboto_Mono } from 'next/font/google';
 import { ReactLenis } from 'lenis/react';
 
 import 'lenis/dist/lenis.css';
@@ -28,9 +28,16 @@ const robotoFlex = Roboto_Flex({
     variable: '--font-roboto-flex',
 });
 
+const robotoMono = Roboto_Mono({
+    subsets: ['latin'],
+    variable: '--font-roboto-mono',
+});
+
 export const metadata: Metadata = {
-    title: 'Portfolio - Muhammad Ahmad',
-    description: 'Personal portfolio of Muhammad Ahmad - Full Stack Developer specializing in MERN Stack & Next.js',
+    title: 'Muhammad Ahmad - AI Architect & Engineer',
+    description:
+        'Muhammad Ahmad architects AI-native systems, AI agents, SaaS platforms and business automations, end to end. Founder of Elaviqo, a salon POS SaaS on web, desktop and Android.',
+    openGraph: { images: ['/projects/shots/elaviqo-0.webp'] },
 };
 
 export default function RootLayout({
@@ -52,7 +59,7 @@ export default function RootLayout({
             })(window,document,'https://static.hotjar.com/c/hotjar-','.js?sv=');`}
             </Script>
             <body
-                className={`${antonFont.variable} ${robotoFlex.variable} antialiased`}
+                className={`${antonFont.variable} ${robotoFlex.variable} ${robotoMono.variable} antialiased`}
                 suppressHydrationWarning
             >
                 <ReactLenis

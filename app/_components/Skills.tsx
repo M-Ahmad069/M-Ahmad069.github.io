@@ -90,7 +90,7 @@ const Skills = () => {
                                                 className="max-h-10"
                                             />
                                         </div>
-                                        <span className="text-2xl capitalize">
+                                        <span className="text-2xl">
                                             {item.name}
                                         </span>
                                     </div>

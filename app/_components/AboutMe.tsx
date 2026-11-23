@@ -55,9 +55,10 @@ const AboutMe = () => {
         <section className="pb-section" id="about-me">
             <div className="container" ref={container}>
                 <h2 className="text-4xl md:text-6xl font-thin mb-20 slide-up-and-fade">
-                    I build real-world web systems end to end designing the
-                    architecture, APIs, and data flow so applications stay
-                    performant, reliable, and simple to extend.
+                    Writing code is no longer the hard part.{' '}
+                    <span className="text-ai">Architecture is.</span> I design
+                    AI-native systems, direct AI agents to build them, and own
+                    them in production.
                 </h2>
 
                 <p className="pb-3 border-b text-muted-foreground slide-up-and-fade">
@@ -73,21 +74,21 @@ const AboutMe = () => {
                     <div className="md:col-span-7">
                         <div className="text-lg text-muted-foreground max-w-[450px]">
                             <p className="slide-up-and-fade">
-                                I&apos;m a Full Stack Developer who takes
-                                responsibility for backend architecture, API
-                                design, and database modeling, as well as the
-                                frontend that sits on top of it. On the backend
-                                I structure services, authentication,
-                                authorization, and business logic so they stay
-                                clear and predictable.
+                                I&apos;m the founder and sole engineer of
+                                Elaviqo, a salon POS SaaS that runs a paying
+                                salon&apos;s checkout, bookings and staff pay
+                                on the web, Windows, Mac and Android. I also
+                                build and run SoftScroll, FitGenius and
+                                CaptionFlow.
                             </p>
                             <p className="mt-3 slide-up-and-fade">
-                                On the frontend I build responsive, modern
-                                interfaces that integrate cleanly with the
-                                backend and keep the product straightforward to
-                                use. I focus on performance, maintainability,
-                                and shipping features that behave well in real
-                                usage, not just in isolated demos.
+                                My day is architecture and orchestration: I
+                                write the spec, run several AI coding agents in
+                                parallel, connect them to real infrastructure
+                                through MCP, and gate every change with types,
+                                tests, reviews and preview deploys. Agents,
+                                automations, security and support: one person,
+                                the whole product.
                             </p>
                         </div>
                     </div>

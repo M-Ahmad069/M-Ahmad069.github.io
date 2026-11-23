@@ -19,7 +19,12 @@ export const generateMetadata = async ({
         title: `${project?.title} - ${project?.techStack
             .slice(0, 3)
             .join(', ')}`,
-        description: project?.description,
+        description: project?.description
+            .replace(/<[^>]+>/g, ' ')
+            .replace(/\s+/g, ' ')
+            .trim()
+            .slice(0, 160),
+        openGraph: { images: project ? [project.thumbnail] : [] },
     } as Metadata;
 };
 

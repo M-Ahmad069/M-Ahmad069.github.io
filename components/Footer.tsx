@@ -23,12 +23,12 @@ const Footer = async () => {
         <footer className="text-center pb-5" id="contact">
             <div className="container">
                 <p className="text-lg">
-                    Building a product, platform, or internal tool? Let&apos;s
-                    ship a reliable full-stack solution.
+                    Building a SaaS, an AI feature or an automation? Let&apos;s
+                    ship it, end to end.
                 </p>
                 <a
                     href={`mailto:${GENERAL_INFO.email}`}
-                    className="text-3xl sm:text-4xl font-anton inline-block mt-5 mb-10 hover:underline"
+                    className="text-2xl xs:text-3xl sm:text-4xl font-anton inline-block mt-5 mb-10 hover:underline break-all"
                 >
                     {GENERAL_INFO.email}
                 </a>
@@ -39,8 +39,8 @@ const Footer = async () => {
                         target="_blank"
                         className="leading-none text-muted-foreground hover:underline hover:text-white"
                     >
-                        Built and maintained by Muhammad Ahmad, Full Stack
-                        Developer
+                        Built and maintained by Muhammad Ahmad, AI &amp; Full
+                        Stack Engineer
                         <div className="flex items-center justify-center gap-5 pt-1">
                             <span className="flex items-center gap-2">
                                 <Star size={18} /> {stargazers_count}

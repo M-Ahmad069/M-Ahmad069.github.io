@@ -34,7 +34,7 @@ const robotoMono = Roboto_Mono({
 });
 
 export const metadata: Metadata = {
-    title: 'Muhammad Ahmad - AI Architect & Engineer',
+    title: 'Muhammad Ahmad | AI Architect & Engineer',
     description:
         'Muhammad Ahmad architects AI-native systems, AI agents, SaaS platforms and business automations, end to end. Founder of Elaviqo, a salon POS SaaS on web, desktop and Android.',
     openGraph: { images: ['/projects/shots/elaviqo-0.webp'] },
